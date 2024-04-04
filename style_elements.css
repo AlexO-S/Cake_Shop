@@ -1,0 +1,3044 @@
+* {
+   margin: 0px;
+   padding: 0px;
+   font-family: "jost", sans-serif;
+   /* color: white; */
+}
+
+body {
+   background-color: black;
+   /* color: white auto; */
+}
+
+
+.cake-shop-logo {
+  width: 90%;
+  padding: 35px 0px 10px 20px;
+}
+
+
+#nav-bar {
+   position: fixed;
+   background-color: rgb(70, 68, 68);
+   width: 100%;
+   height: 50px;
+   display: flex;
+   flex-direction: row;
+   justify-content: right;
+   align-items: center;
+   color: rgb(255, 255, 255);
+   position: relative;
+   z-index: 99;
+}
+
+#nav-bar ul li {
+   font-size: 14px;
+   list-style: none;
+   display: inline;
+}
+
+#nav-bar ul li a {
+   color: rgb(255, 255, 255);
+   text-decoration: none;
+   padding: 0.2% 24px;
+}
+
+#nav-bar ul li a:hover {
+   background-color: rgb(0, 0, 0);
+   color: rgb(255, 255, 255);
+   cursor: pointer;
+   border-radius: 5px;
+}
+
+#nav-bar ul {
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+}
+
+#nav-bar header ul li .menu:hover {
+   color: rgb(255, 255, 255);
+}
+
+
+#nav-bar ul .dropdown {
+   position: relative;
+   display: inline-block;
+}
+
+#nav-bar ul li .dropdown .dropdown-content {
+   display: none;
+   text-align: center;
+   position: absolute;
+   width: 100vw;
+   line-height: 30px;
+   /* box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); */
+   z-index: 1;
+   right: 0%;
+}
+
+#nav-bar ul .dropdown-content a {
+   color: rgb(255, 255, 255);
+   text-decoration: none;
+   display: block;
+   text-align: left;
+}
+
+#nav-bar ul .dropdown-content a:hover {
+   background-color: #ccc;
+   color: black;
+}
+
+#nav-bar ul .dropdown  .menu {
+   padding: 10px 20px;
+   border-radius: 5px;
+   margin-right: 25px;
+   /* margin-left: -13px; */
+   background-color: #222222;
+   text-align: center;
+   text-shadow: 0 1px 3px #000;
+   font-weight: 700;
+}
+
+#nav-bar ul .dropdown:hover .menu {
+   background-color: black;
+} 
+
+#nav-bar ul .dropdown .menu span {
+   margin-left: 2px;
+}
+
+#nav-bar ul .dropdown-content a {
+   background-color: rgb(70, 68, 68);
+}
+
+#nav-bar ul .dropdown:hover .dropdown-content {
+   display: block;
+}
+
+.dropdown2 {
+   position: relative;
+   width: 100%;
+   right: 0px;
+}
+
+.dropdown2 .blog-div {
+   position: relative;
+   width: 100%;
+}
+
+.dropdown-content2 {
+   justify-content: center;
+   display: none;
+   text-align: center;
+   width: 100%;
+   /* box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); */
+   z-index: 1;
+   right: 0%;
+   border-radius: none;
+
+}
+
+.dropdown-content2 p a {
+   color: rgb(255, 255, 255);
+   text-decoration: none;
+   display: block;
+   flex-direction: column;
+   text-align: left;
+}
+
+.dropdown-content2 p a:hover {
+   cursor: pointer;
+   background-color: #ccc;
+   color: black;
+}
+       
+.dropdown2:hover .blog {
+   background-color:#ccc;
+   color: black;
+}  
+
+ul .dropdown .menu span {
+   margin-left: 2px;
+}
+
+ul .dropdown2:hover .dropdown-content2 {
+   display: block;
+}
+
+
+
+.cupcake-home {
+   position: relative;
+   margin-bottom: 45px;
+ }
+ 
+ .cupcake-home img {
+   width: 100%;
+ }
+ 
+ .cupcake-home .elements {
+   position: absolute;
+   top: 35px;
+   left: 3%;
+   right: 10%;
+   font-size: 205%;
+   text-align: left;
+   font-weight: 280;
+   font-family: "poiret one", cursive;
+   color: white;
+ }
+
+
+
+ .textsample-everyavid {
+   display: flex;
+   flex-direction: column;
+   gap: 22px;
+   margin-left: 3%;
+   margin-right: 3%;
+   color: white;
+   font-size: 15px;
+}
+
+.textsample-everyavid .textsample {
+   font-family: "poiret one", cursive;
+   font-size: 20px;
+}
+
+.hr1-1-cont {
+   margin-left: 0%;
+   margin-right: 0%;
+}
+.hr1-1-cont .hr1-1 {
+   margin-top: 60px;
+   margin-bottom: 55px;
+   border: 1px solid white;
+   border-style: dashed;
+}
+
+
+.sample-button-colors {
+   display: flex;
+   flex-direction: column;
+   gap: 65px;
+   position: relative;
+   justify-content: left;
+   align-items: left;
+   margin-right: 3%;
+   margin-left: 3%;
+   color: white;
+}
+
+.sample-button-colors .sample-button-text {
+   font-family: "poiret one", cursive;
+   font-size: 20px;
+   text-align: left;
+   color: white;
+   margin-bottom: -30px;
+}
+ 
+
+.sample-button-colors .button1 {
+   display: flex;
+   flex-direction: column;
+   gap: 26px;
+   width: 100%;
+   font-family: "jost", sans-serif;
+   font-size: 15px;
+   font-weight: 400;
+}
+
+.sample-button-colors .button1-1 {
+   display: flex;
+   flex-direction: row;
+   gap: 14px;
+   flex-wrap: wrap;
+   width: 100%;
+   font-family: "jost", sans-serif;
+   line-height: 37px;
+}
+
+.sample-button-colors .button1-1 .default a {
+   padding: 10px 23px;
+   background-color: white;
+   color: #415094;
+   border: 2px solid white;
+   text-decoration: none;   
+}
+
+.sample-button-colors .button1-1 .default a:hover {
+   background-color: white;
+   color: #415094;
+   border: 2px solid white;
+   cursor: pointer;
+}
+
+.sample-button-colors .button1-1 .primary a {
+   padding: 10px 23px;
+   background-color: #1f2b7b;
+   color: white;
+   border: 2px solid #1f2b7b;
+   text-decoration: none;   
+}
+
+.sample-button-colors .button1-1 .primary a:hover {
+   background-color: white;
+   color: #415094;
+   border: 2px solid #1f2b7b;
+   cursor: pointer;
+}
+
+.sample-button-colors .button1-1 .success a {
+   padding: 10px 23px;
+   background-color: #4cd3e3;
+   border: 2px solid #4cd3e3;
+   color: white;
+   text-decoration: none;   
+}
+
+.sample-button-colors .button1-1 .success a:hover {
+   background-color: white;
+   color: #4cd3e3;
+   border: 2px solid #4cd3e3;
+   cursor: pointer;
+}
+
+.sample-button-colors .button1-1 .info a {
+   padding: 10px 23px;
+   background-color: #38a4ff;
+   color: white;
+   border: 2px solid #38a4ff;
+   text-decoration: none;   
+}
+
+.sample-button-colors .button1-1 .info a:hover {
+   background-color: white;
+   color: #38a4ff;
+   border: 2px solid #38a4ff;
+   cursor: pointer;
+}
+
+.sample-button-colors .button1-1 .warning a {
+   padding: 10px 23px;
+   background-color: #f4e700;
+   color: white;
+   border: 2px solid #f4e700;
+   text-decoration: none;   
+}
+
+.sample-button-colors .button1-1 .warning a:hover {
+   background-color: white;
+   color: #f4e700;
+   border: 2px solid #f4e700;
+   cursor: pointer;
+}
+
+.sample-button-colors .button1-1 .danger a {
+   padding: 10px 23px;
+   background-color: #f44a40;
+   color: white;
+   border: 2px solid #f44a40;
+   text-decoration: none;   
+}
+
+.sample-button-colors .button1-1 .danger a:hover {
+   background-color: white;
+   color: #f44a40;
+   border: 2px solid #f44a40;
+   cursor: pointer;
+}
+
+.sample-button-colors .button1-1 .link a {
+   padding: 10px 23px;
+   background-color: white;
+   color: #1f2b7b;
+   border: 2px solid white;
+}
+
+.sample-button-colors .button1-1 .link a:hover {
+   background-color: white;
+   color: #1f2b7b;
+   cursor: pointer;
+   border: 2px solid white;
+}
+
+.sample-button-colors .button1-1 .disable a {
+   padding: 10px 23px;
+   background-color: rgb(211, 208, 208);
+   color: white;
+   border: 2px solid rgb(211, 208, 208);
+   text-decoration: none;   
+}
+
+.sample-button-colors .button1-1 .disable a:hover {
+   background-color: rgb(211, 208, 208);
+   color: white;
+   border: 2px solid rgb(211, 208, 208);
+   cursor: pointer;
+}
+
+
+.sample-button-colors .button1-2 {
+   display: flex;
+   flex-direction: row;
+   gap: 14px;
+   flex-wrap: wrap;
+   width: 100%;
+   font-family: "jost", sans-serif;
+   line-height: 37px;
+}
+
+.sample-button-colors .button1-2 .default a {
+   padding: 10px 23px;
+   background-color: white;
+   color: white;
+   border: 2px solid white;
+   text-decoration: none;   
+}
+
+.sample-button-colors .button1-2 .default a:hover {
+   background-color: white;
+   color: #415094;
+   border: 2px solid white;
+   cursor: pointer;
+}
+
+.sample-button-colors .button1-2 .primary a {
+   padding: 10px 23px;
+   background-color: white;
+   color: #415094;
+   border: 2px solid #1f2b7b;
+   text-decoration: none;   
+}
+
+.sample-button-colors .button1-2 .primary a:hover {
+   background-color: #1f2b7b;
+   color: white;
+   border: 2px solid #1f2b7b;
+   cursor: pointer;
+}
+
+.sample-button-colors .button1-2 .success a {
+   padding: 10px 23px;
+   background-color: white;
+   color: #4cd3e3;
+   border: 2px solid #4cd3e3;
+   text-decoration: none;   
+}
+
+.sample-button-colors .button1-2 .success a:hover {
+   background-color: #4cd3e3;
+   color: white;
+   border: 2px solid #4cd3e3;
+   cursor: pointer;
+}
+
+.sample-button-colors .button1-2 .info a {
+   padding: 10px 23px;
+   background-color: white;
+   color: #38a4ff;
+   border: 2px solid #38a4ff;
+   text-decoration: none;   
+}
+
+.sample-button-colors .button1-2 .info a:hover {
+   background-color: #38a4ff;
+   color: white;
+   border: 2px solid #38a4ff;
+   cursor: pointer;
+}
+
+.sample-button-colors .button1-2 .warning a {
+   padding: 10px 23px;
+   background-color: white;
+   color: #f4e700;
+   border: 2px solid #f4e700;
+   text-decoration: none;   
+}
+
+.sample-button-colors .button1-2 .warning a:hover {
+   background-color: #f4e700;
+   color: white;
+   border: 2px solid #f4e700;
+   cursor: pointer;
+}
+
+.sample-button-colors .button1-2 .danger a {
+   padding: 10px 23px;
+   background-color: white;
+   color: #f44a40;
+   border: 2px solid #f44a40;
+   text-decoration: none;   
+}
+
+.sample-button-colors .button1-2 .danger a:hover {
+   background-color: #f44a40;
+   color: white;
+   border: 2px solid #f44a40;
+   cursor: pointer;
+}
+
+.sample-button-colors .button1-2 .link a {
+   padding: 10px 23px;
+   background-color: white;
+   border: 2px solid white;
+   color: #1f2b7b;
+}
+
+.sample-button-colors .button1-2 .link a:hover {
+   background-color: white;
+   color: #1f2b7b;
+   border: 2px solid white;
+   cursor: pointer;
+}
+
+.sample-button-colors .button1-2 .disable a {
+   padding: 10px 23px;
+   background-color: rgb(211, 208, 208);
+   color: white;
+   border: 2px solid rgb(211, 208, 208);
+   text-decoration: none;   
+}
+
+.sample-button-colors .button1-2 .disable a:hover {
+   background-color: rgb(211, 208, 208);
+   color: white;
+   border: 2px solid rgb(211, 208, 208);
+   cursor: pointer;
+}
+
+
+
+.sample-button-colors .button2 {
+   display: flex;
+   flex-direction: column;
+   gap: 26px;
+   width: 100%;
+   font-family: "jost", sans-serif;
+   font-size: 15px;
+   font-weight: 400;
+}
+
+.sample-button-colors .button2-1 {
+   display: flex;
+   flex-direction: row;
+   gap: 14px;
+   flex-wrap: wrap;
+   width: 100%;
+   font-family: "jost", sans-serif;
+   line-height: 37px;
+}
+
+.sample-button-colors .button2-1 .default a {
+   padding: 10px 23px;
+   border-radius: 5px;
+   background-color: white;
+   color: #415094;
+   border: 2px solid white;
+   text-decoration: none;   
+}
+
+.sample-button-colors .button2-1 .default a:hover {
+   background-color: white;
+   color: #415094;
+   border: 2px solid white;
+   cursor: pointer;
+}
+
+.sample-button-colors .button2-1 .primary a {
+   padding: 10px 23px;
+   border-radius: 5px;
+   background-color: #1f2b7b;
+   color: white;
+   border: 2px solid #1f2b7b;
+   text-decoration: none;   
+}
+
+.sample-button-colors .button2-1 .primary a:hover {
+   background-color: white;
+   color: #415094;
+   border: 2px solid #1f2b7b;
+   cursor: pointer;
+}
+
+.sample-button-colors .button2-1 .success a {
+   padding: 10px 23px;
+   border-radius: 5px;
+   background-color: #4cd3e3;
+   border: 2px solid #4cd3e3;
+   color: white;
+   text-decoration: none;   
+}
+
+.sample-button-colors .button2-1 .success a:hover {
+   background-color: white;
+   color: #4cd3e3;
+   border: 2px solid #4cd3e3;
+   cursor: pointer;
+}
+
+.sample-button-colors .button2-1 .info a {
+   padding: 10px 23px;
+   border-radius: 5px;
+   background-color: #38a4ff;
+   color: white;
+   border: 2px solid #38a4ff;
+   text-decoration: none;   
+}
+
+.sample-button-colors .button2-1 .info a:hover {
+   background-color: white;
+   color: #38a4ff;
+   border: 2px solid #38a4ff;
+   cursor: pointer;
+}
+
+.sample-button-colors .button2-1 .warning a {
+   padding: 10px 23px;
+   border-radius: 5px;
+   background-color: #f4e700;
+   color: white;
+   border: 2px solid #f4e700;
+   text-decoration: none;   
+}
+
+.sample-button-colors .button2-1 .warning a:hover {
+   background-color: white;
+   color: #f4e700;
+   border: 2px solid #f4e700;
+   cursor: pointer;
+}
+
+.sample-button-colors .button2-1 .danger a {
+   padding: 10px 23px;
+   border-radius: 5px;
+   background-color: #f44a40;
+   color: white;
+   border: 2px solid #f44a40;
+   text-decoration: none;   
+}
+
+.sample-button-colors .button2-1 .danger a:hover {
+   background-color: white;
+   color: #f44a40;
+   border: 2px solid #f44a40;
+   cursor: pointer;
+}
+
+.sample-button-colors .button2-1 .link a {
+   padding: 10px 23px;
+   border-radius: 5px;
+   background-color: white;
+   color: #1f2b7b;
+   border: 2px solid white;
+}
+
+.sample-button-colors .button2-1 .link a:hover {
+   background-color: white;
+   color: #1f2b7b;
+   cursor: pointer;
+   border: 2px solid white;
+}
+
+.sample-button-colors .button2-1 .disable a {
+   padding: 10px 23px;
+   border-radius: 5px;
+   background-color: rgb(211, 208, 208);
+   color: white;
+   border: 2px solid rgb(211, 208, 208);
+   text-decoration: none;   
+}
+
+.sample-button-colors .button2-1 .disable a:hover {
+   background-color: rgb(211, 208, 208);
+   color: white;
+   border: 2px solid rgb(211, 208, 208);
+   cursor: pointer;
+}
+
+
+.sample-button-colors .button2-2 {
+   display: flex;
+   flex-direction: row;
+   gap: 14px;
+   flex-wrap: wrap;
+   width: 100%;
+   font-family: "jost", sans-serif;
+   line-height: 37px;
+}
+
+.sample-button-colors .button2-2 .default a {
+   padding: 10px 23px;
+   border-radius: 5px;
+   background-color: white;
+   color: white;
+   border: 2px solid white;
+   text-decoration: none;   
+}
+
+.sample-button-colors .button2-2 .default a:hover {
+   background-color: white;
+   color: #415094;
+   border: 2px solid white;
+   cursor: pointer;
+}
+
+.sample-button-colors .button2-2 .primary a {
+   padding: 10px 23px;
+   border-radius: 5px;
+   background-color: white;
+   color: #415094;
+   border: 2px solid #1f2b7b;
+   text-decoration: none;   
+}
+
+.sample-button-colors .button2-2 .primary a:hover {
+   background-color: #1f2b7b;
+   color: white;
+   border: 2px solid #1f2b7b;
+   cursor: pointer;
+}
+
+.sample-button-colors .button2-2 .success a {
+   padding: 10px 23px;
+   border-radius: 5px;
+   background-color: white;
+   color: #4cd3e3;
+   border: 2px solid #4cd3e3;
+   text-decoration: none;   
+}
+
+.sample-button-colors .button2-2 .success a:hover {
+    background-color: #4cd3e3;
+   color: white;
+   border: 2px solid #4cd3e3;
+   cursor: pointer;
+}
+
+.sample-button-colors .button2-2 .info a {
+   padding: 10px 23px;
+   border-radius: 5px;
+   background-color: white;
+   color: #38a4ff;
+   border: 2px solid #38a4ff;
+   text-decoration: none;   
+}
+
+.sample-button-colors .button2-2 .info a:hover {
+   background-color: #38a4ff;
+   color: white;
+   border: 2px solid #38a4ff;
+   cursor: pointer;
+}
+
+.sample-button-colors .button2-2 .warning a {
+   padding: 10px 23px;
+   border-radius: 5px;
+   background-color: white;
+   color: #f4e700;
+   border: 2px solid #f4e700;
+   text-decoration: none;   
+}
+
+.sample-button-colors .button2-2 .warning a:hover {
+   background-color: #f4e700;
+   color: white;
+   border: 2px solid #f4e700;
+   cursor: pointer;
+}
+
+.sample-button-colors .button2-2 .danger a {
+   padding: 10px 23px;
+   border-radius: 5px;
+   background-color: white;
+   color: #f44a40;
+   border: 2px solid #f44a40;
+   text-decoration: none;   
+}
+
+.sample-button-colors .button2-2 .danger a:hover {
+   background-color: #f44a40;
+   color: white;
+   border: 2px solid #f44a40;
+   cursor: pointer;
+}
+
+.sample-button-colors .button2-2 .link a {
+   padding: 10px 23px;
+   border-radius: 5px;
+   background-color: white;
+   border: 2px solid white;
+   color: #1f2b7b;
+}
+
+.sample-button-colors .button2-2 .link a:hover {
+   background-color: white;
+   color: #1f2b7b;
+   border: 2px solid white;
+   cursor: pointer;
+}
+
+.sample-button-colors .button2-2 .disable a {
+   padding: 10px 23px;
+   border-radius: 5px;
+   background-color: rgb(211, 208, 208);
+   color: white;
+   border: 2px solid rgb(211, 208, 208);
+   text-decoration: none;   
+}
+
+.sample-button-colors .button2-2 .disable a:hover {
+   background-color: rgb(211, 208, 208);
+   color: white;
+   border: 2px solid rgb(211, 208, 208);
+   cursor: pointer;
+}
+
+
+
+.sample-button-colors .button3 {
+   display: flex;
+   flex-direction: column;
+   gap: 26px;
+   width: 100%;
+   font-family: "jost", sans-serif;
+   font-size: 15px;
+   font-weight: 400;
+}
+
+.sample-button-colors .button3-1 {
+   display: flex;
+   flex-direction: row;
+   gap: 14px;
+   flex-wrap: wrap;
+   width: 100%;
+   font-family: "jost", sans-serif;
+   line-height: 37px;
+}
+
+.sample-button-colors .button3-1 .default a {
+   padding: 10px 23px;
+   border-radius: 50px;
+   background-color: white;
+   color: #415094;
+   border: 2px solid white;
+   text-decoration: none;   
+}
+
+.sample-button-colors .button3-1 .default a:hover {
+   background-color: white;
+   color: #415094;
+   border: 2px solid white;
+   cursor: pointer;
+}
+
+.sample-button-colors .button3-1 .primary a {
+   padding: 10px 23px;
+   border-radius: 50px;
+   background-color: #1f2b7b;
+   color: white;
+   border: 2px solid #1f2b7b;
+   text-decoration: none;   
+}
+
+.sample-button-colors .button3-1 .primary a:hover {
+   background-color: white;
+   color: #415094;
+   border: 2px solid #1f2b7b;
+   cursor: pointer;
+}
+
+.sample-button-colors .button3-1 .success a {
+   padding: 10px 23px;
+   border-radius: 50px;
+   background-color: #4cd3e3;
+   border: 2px solid #4cd3e3;
+   color: white;
+   text-decoration: none;   
+}
+
+.sample-button-colors .button3-1 .success a:hover {
+   background-color: white;
+   color: #4cd3e3;
+   border: 2px solid #4cd3e3;
+   cursor: pointer;
+}
+
+.sample-button-colors .button3-1 .info a {
+   padding: 10px 23px;
+   border-radius: 50px;
+   background-color: #38a4ff;
+   color: white;
+   border: 2px solid #38a4ff;
+   text-decoration: none;   
+}
+
+.sample-button-colors .button3-1 .info a:hover {
+   background-color: white;
+   color: #38a4ff;
+   border: 2px solid #38a4ff;
+   cursor: pointer;
+}
+
+.sample-button-colors .button3-1 .warning a {
+   padding: 10px 23px;
+   border-radius: 50px;
+   background-color: #f4e700;
+   color: white;
+   border: 2px solid #f4e700;
+   text-decoration: none;   
+}
+
+.sample-button-colors .button3-1 .warning a:hover {
+   background-color: white;
+   color: #f4e700;
+   border: 2px solid #f4e700;
+   cursor: pointer;
+}
+
+.sample-button-colors .button3-1 .danger a {
+   padding: 10px 23px;
+   border-radius: 50px;
+   background-color: #f44a40;
+   color: white;
+   border: 2px solid #f44a40;
+   text-decoration: none;   
+}
+
+.sample-button-colors .button3-1 .danger a:hover {
+   background-color: white;
+   color: #f44a40;
+   border: 2px solid #f44a40;
+   cursor: pointer;
+}
+
+.sample-button-colors .button3-1 .link a {
+   padding: 10px 23px;
+   border-radius: 50px;
+   background-color: white;
+   color: #1f2b7b;
+   border: 2px solid white;
+}
+
+.sample-button-colors .button3-1 .link a:hover {
+   background-color: white;
+   color: #1f2b7b;
+   cursor: pointer;
+   border: 2px solid white;
+}
+
+.sample-button-colors .button3-1 .disable a {
+   padding: 10px 23px;
+   border-radius: 50px;
+   background-color: rgb(211, 208, 208);
+   color: white;
+   border: 2px solid rgb(211, 208, 208);
+   text-decoration: none;   
+}
+
+.sample-button-colors .button3-1 .disable a:hover {
+   background-color: rgb(211, 208, 208);
+   color: white;
+   border: 2px solid rgb(211, 208, 208);
+   cursor: pointer;
+}
+
+
+.sample-button-colors .button3-2 {
+   display: flex;
+   flex-direction: row;
+   gap: 14px;
+   flex-wrap: wrap;
+   width: 100%;
+   font-family: "jost", sans-serif;
+   line-height: 37px;
+}
+
+.sample-button-colors .button3-2 .default a {
+   padding: 10px 23px;
+   border-radius: 50px;
+   background-color: white;
+   color: white;
+   border: 2px solid white;
+   text-decoration: none;   
+}
+
+.sample-button-colors .button3-2 .default a:hover {
+   background-color: white;
+   color: #415094;
+   border: 2px solid white;
+   cursor: pointer;
+}
+
+.sample-button-colors .button3-2 .primary a {
+   padding: 10px 23px;
+   border-radius: 50px;
+   background-color: white;
+   color: #415094;
+   border: 2px solid #1f2b7b;
+   text-decoration: none;   
+}
+
+.sample-button-colors .button3-2 .primary a:hover {
+   background-color: #1f2b7b;
+   color: white;
+   border: 2px solid #1f2b7b;
+   cursor: pointer;
+}
+
+.sample-button-colors .button3-2 .success a {
+   padding: 10px 23px;
+   border-radius: 50px;
+   background-color: white;
+   color: #4cd3e3;
+   border: 2px solid #4cd3e3;
+   text-decoration: none;   
+}
+
+.sample-button-colors .button3-2 .success a:hover {
+    background-color: #4cd3e3;
+   color: white;
+   border: 2px solid #4cd3e3;
+   cursor: pointer;
+}
+
+.sample-button-colors .button3-2 .info a {
+   padding: 10px 23px;
+   border-radius: 50px;
+   background-color: white;
+   color: #38a4ff;
+   border: 2px solid #38a4ff;
+   text-decoration: none;   
+}
+
+.sample-button-colors .button3-2 .info a:hover {
+   background-color: #38a4ff;
+   color: white;
+   border: 2px solid #38a4ff;
+   cursor: pointer;
+}
+
+.sample-button-colors .button3-2 .warning a {
+   padding: 10px 23px;
+   border-radius: 50px;
+   background-color: white;
+   color: #f4e700;
+   border: 2px solid #f4e700;
+   text-decoration: none;   
+}
+
+.sample-button-colors .button3-2 .warning a:hover {
+   background-color: #f4e700;
+   color: white;
+   border: 2px solid #f4e700;
+   cursor: pointer;
+}
+
+.sample-button-colors .button3-2 .danger a {
+   padding: 10px 23px;
+   border-radius: 50px;
+   background-color: white;
+   color: #f44a40;
+   border: 2px solid #f44a40;
+   text-decoration: none;   
+}
+
+.sample-button-colors .button3-2 .danger a:hover {
+   background-color: #f44a40;
+   color: white;
+   border: 2px solid #f44a40;
+   cursor: pointer;
+}
+
+.sample-button-colors .button3-2 .link a {
+   padding: 10px 23px;
+   border-radius: 50px;
+   background-color: white;
+   border: 2px solid white;
+   color: #1f2b7b;
+}
+
+.sample-button-colors .button3-2 .link a:hover {
+   background-color: white;
+   color: #1f2b7b;
+   border: 2px solid white;
+   cursor: pointer;
+}
+
+.sample-button-colors .button3-2 .disable a {
+   padding: 10px 23px;
+   border-radius: 50px;
+   background-color: rgb(211, 208, 208);
+   color: white;
+   border: 2px solid rgb(211, 208, 208);
+   text-decoration: none;   
+}
+
+.sample-button-colors .button3-2 .disable a:hover {
+   background-color: rgb(211, 208, 208);
+   color: white;
+   border: 2px solid rgb(211, 208, 208);
+   cursor: pointer;
+}
+
+
+
+.sample-button-colors .button4 {
+   display: flex;
+   flex-direction: column;
+   gap: 26px;
+   width: 100%;
+   font-family: "jost", sans-serif;
+   font-size: 15px;
+   font-weight: 400;
+}
+
+.sample-button-colors .button4-1 {
+   display: flex;
+   flex-direction: row;
+   gap: 14px;
+   flex-wrap: wrap;
+   width: 100%;
+   font-family: "jost", sans-serif;
+   line-height: 37px;
+}
+
+.sample-button-colors .button4-1 .default a {
+   padding: 10px 23px;
+   border-radius: 50px;
+   background-color: white;
+   color: #415094;
+   border: 2px solid white;
+   text-decoration: none;   
+}
+
+.sample-button-colors .button4-1 .default a:hover {
+   background-color: white;
+   color: #415094;
+   border: 2px solid white;
+   cursor: pointer;
+}
+
+.sample-button-colors .button4-1 .primary a {
+   padding: 10px 23px;
+   border-radius: 50px;
+   background-color: #1f2b7b;
+   color: white;
+   border: 2px solid #1f2b7b;
+   text-decoration: none;   
+}
+
+.sample-button-colors .button4-1 .primary a:hover {
+   background-color: white;
+   color: #415094;
+   border: 2px solid #1f2b7b;
+   cursor: pointer;
+}
+
+.sample-button-colors .button4-1 .success a {
+   padding: 10px 23px;
+   border-radius: 50px;
+   background-color: #4cd3e3;
+   border: 2px solid #4cd3e3;
+   color: white;
+   text-decoration: none;   
+}
+
+.sample-button-colors .button4-1 .success a:hover {
+   background-color: white;
+   color: #4cd3e3;
+   border: 2px solid #4cd3e3;
+   cursor: pointer;
+}
+
+.sample-button-colors .button4-1 .info a {
+   padding: 10px 23px;
+   border-radius: 50px;
+   background-color: #38a4ff;
+   color: white;
+   border: 2px solid #38a4ff;
+   text-decoration: none;   
+}
+
+.sample-button-colors .button4-1 .info a:hover {
+   background-color: white;
+   color: #38a4ff;
+   border: 2px solid #38a4ff;
+   cursor: pointer;
+}
+
+.sample-button-colors .button4-1 .warning a {
+   padding: 10px 23px;
+   border-radius: 50px;
+   background-color: #f4e700;
+   color: white;
+   border: 2px solid #f4e700;
+   text-decoration: none;   
+}
+
+.sample-button-colors .button4-1 .warning a:hover {
+   background-color: white;
+   color: #f4e700;
+   border: 2px solid #f4e700;
+   cursor: pointer;
+}
+
+.sample-button-colors .button4-1 .danger a {
+   padding: 10px 23px;
+   border-radius: 50px;
+   background-color: #f44a40;
+   color: white;
+   border: 2px solid #f44a40;
+   text-decoration: none;   
+}
+
+.sample-button-colors .button4-1 .danger a:hover {
+   background-color: white;
+   color: #f44a40;
+   border: 2px solid #f44a40;
+   cursor: pointer;
+}
+
+
+.sample-button-colors .button4-2 {
+   display: flex;
+   flex-direction: row;
+   gap: 14px;
+   flex-wrap: wrap;
+   width: 100%;
+   font-family: "jost", sans-serif;
+   line-height: 37px;
+}
+
+.sample-button-colors .button4-2 .default a {
+   padding: 10px 23px;
+   border-radius: 50px;
+   background-color: white;
+   color: white;
+   border: 2px solid white;
+   text-decoration: none;   
+}
+
+.sample-button-colors .button4-2 .default a:hover {
+   background-color: white;
+   color: #415094;
+   border: 2px solid white;
+   cursor: pointer;
+}
+
+.sample-button-colors .button4-2 .primary a {
+   padding: 10px 23px;
+   border-radius: 50px;
+   background-color: white;
+   color: #415094;
+   border: 2px solid #1f2b7b;
+   text-decoration: none;   
+}
+
+.sample-button-colors .button4-2 .primary a:hover {
+   background-color: #1f2b7b;
+   color: white;
+   border: 2px solid #1f2b7b;
+   cursor: pointer;
+}
+
+.sample-button-colors .button4-2 .success a {
+   padding: 10px 23px;
+   border-radius: 50px;
+   background-color: white;
+   color: #4cd3e3;
+   border: 2px solid #4cd3e3;
+   text-decoration: none;   
+}
+
+.sample-button-colors .button4-2 .success a:hover {
+   background-color: #4cd3e3;
+   color: white;
+   border: 2px solid #4cd3e3;
+   cursor: pointer;
+}
+
+.sample-button-colors .button4-2 .info a {
+   padding: 10px 23px;
+   border-radius: 50px;
+   background-color: white;
+   color: #38a4ff;
+   border: 2px solid #38a4ff;
+   text-decoration: none;   
+}
+
+.sample-button-colors .button4-2 .info a:hover {
+   background-color: #38a4ff;
+   color: white;
+   border: 2px solid #38a4ff;
+   cursor: pointer;
+}
+
+.sample-button-colors .button4-2 .warning a {
+   padding: 10px 23px;
+   border-radius: 50px;
+   background-color: white;
+   color: #f4e700;
+   border: 2px solid #f4e700;
+   text-decoration: none;   
+}
+
+.sample-button-colors .button4-2 .warning a:hover {
+   background-color: #f4e700;
+   color: white;
+   border: 2px solid #f4e700;
+   cursor: pointer;
+}
+
+.sample-button-colors .button4-2 .danger a {
+   padding: 10px 23px;
+   border-radius: 50px;
+   background-color: white;
+   color: #f44a40;
+   border: 2px solid #f44a40;
+   text-decoration: none;   
+}
+
+.sample-button-colors .button4-2 .danger a:hover {
+   background-color: #f44a40;
+   color: white;
+   border: 2px solid #f44a40;
+   cursor: pointer;
+}
+
+
+
+.sample-button-colors .button5 {
+   display: flex;
+   flex-direction: column;
+   gap: 26px;
+   width: 100%;
+   font-family: "jost", sans-serif;
+   font-size: 15px;
+   font-weight: 400;
+}
+
+.sample-button-colors .button5-1 {
+   display: flex;
+   flex-direction: row;
+   gap: 14px;
+   flex-wrap: wrap;
+   width: 100%;
+   font-family: "jost", sans-serif;
+   line-height: 37px;
+}
+
+.sample-button-colors .button5-1 .extra-large a {
+   padding: 10px 23px;
+   background-color: #1f2b7b;
+   color: white;
+   border: 2px solid #1f2b7b;
+   text-decoration: none;   
+}
+
+.sample-button-colors .button5-1 .extra-large a:hover {
+   background-color: white;
+   color: #415094;
+   border: 2px solid #1f2b7b;
+   cursor: pointer;
+}
+
+.sample-button-colors .button5-1 .large a {
+   padding: 8px 23px;
+   background-color: #4cd3e3;
+   border: 2px solid #4cd3e3;
+   color: white;
+   text-decoration: none;   
+}
+
+.sample-button-colors .button5-1 .large a:hover {
+   background-color: white;
+   color: #4cd3e3;
+   border: 2px solid #4cd3e3;
+   cursor: pointer;
+}
+
+.sample-button-colors .button5-1 .default a {
+   padding: 6px 23px;
+   background-color: #1f2b7b;
+   color: white;
+   border: 2px solid #1f2b7b;
+   text-decoration: none;   
+}
+
+.sample-button-colors .button5-1 .default a:hover {
+   background-color: white;
+   color: #415094;
+   border: 2px solid #1f2b7b;
+   cursor: pointer;
+}
+
+.sample-button-colors .button5-1 .medium a {
+   padding: 4px 23px;
+   background-color: #4cd3e3;
+   border: 2px solid #4cd3e3;
+   color: white;
+   text-decoration: none;   
+}
+
+.sample-button-colors .button5-1 .medium a:hover {
+   background-color: white;
+   color: #4cd3e3;
+   border: 2px solid #4cd3e3;
+   cursor: pointer;
+}
+
+.sample-button-colors .button5-1 .small a {
+   padding: 2px 23px;
+   background-color: #1f2b7b;
+   color: white;
+   border: 2px solid #1f2b7b;
+   text-decoration: none;   
+}
+
+.sample-button-colors .button5-1 .small a:hover {
+   background-color: white;
+   color: #415094;
+   border: 2px solid #1f2b7b;
+   cursor: pointer;
+}
+
+
+.sample-button-colors .button5-2 {
+   display: flex;
+   flex-direction: row;
+   gap: 14px;
+   flex-wrap: wrap;
+   width: 100%;
+   font-family: "jost", sans-serif;
+   line-height: 37px;
+}
+
+.sample-button-colors .button5-2 .extra-large a {
+   padding: 10px 23px;
+   background-color: white;
+   color: #415094;
+   border: 2px solid #1f2b7b;
+   text-decoration: none;   
+}
+
+.sample-button-colors .button5-2 .extra-large a:hover {
+   background-color: #1f2b7b;
+   color: white;
+   border: 2px solid #1f2b7b;
+   cursor: pointer;
+}
+
+.sample-button-colors .button5-2 .large a {
+   padding: 8px 23px;
+   background-color: white;
+   color: #4cd3e3;
+   border: 2px solid #4cd3e3;
+   text-decoration: none;   
+}
+
+.sample-button-colors .button5-2 .large a:hover {
+   background-color: #4cd3e3;
+   color: white;
+   border: 2px solid #4cd3e3;
+   cursor: pointer;
+}
+
+.sample-button-colors .button5-2 .default a {
+   padding: 6px 23px;
+   background-color: white;
+   color: #415094;
+   border: 2px solid #1f2b7b;
+   text-decoration: none;   
+}
+
+.sample-button-colors .button5-2 .default a:hover {
+   background-color: #1f2b7b;
+   color: white;
+   border: 2px solid #1f2b7b;
+   cursor: pointer;
+}
+
+.sample-button-colors .button5-2 .medium a {
+   padding: 4px 23px;
+   background-color: white;
+   color: #4cd3e3;
+   border: 2px solid #4cd3e3;
+   text-decoration: none;   
+}
+
+.sample-button-colors .button5-2 .medium a:hover {
+   background-color: #4cd3e3;
+   color: white;
+   border: 2px solid #4cd3e3;
+   cursor: pointer;
+}
+
+.sample-button-colors .button5-2 .small a {
+   padding: 2px 23px;
+   background-color: white;
+   color: #415094;
+   border: 2px solid #1f2b7b;
+   text-decoration: none;   
+}
+
+.sample-button-colors .button5-2 .small a:hover {
+   background-color: #1f2b7b;
+   color: white;
+   border: 2px solid #1f2b7b;
+   cursor: pointer;
+}
+
+
+
+.hr2-1-cont {
+   margin-left: 3%;
+   margin-right: 3%;
+}
+.hr2-1-cont .hr2-1 {
+   margin-top: 60px;
+   margin-bottom: 55px;
+   border: 1px solid white;
+   border-style: dashed;
+}
+
+.left-aligned {
+   display: flex;
+   flex-direction: column;
+   gap: 28px;
+   position: relative;
+   justify-content: left;
+   align-items: left;
+   margin-right: 3%;
+   margin-left: 3%;
+   color: white;
+}
+
+.left-aligned .title1 {
+   font-family: "poiret one", cursive;
+   font-size: 22px;
+   text-align: left;
+   color: white;
+}
+
+.left-aligned .image-message1 {
+   display: flex;
+   flex-direction: column;
+   gap: 20px;
+   position: relative;
+   justify-content: left;
+   align-items: left;
+   color: white;
+}
+
+.left-aligned .image-message1 img {
+   width: 100%;
+}
+
+.left-aligned .image-message1 .message1 {
+   width: 100%;
+   font-size: 15px;
+   line-height: 25px;
+}
+
+
+.hr3-1-cont {
+   margin-left: 3%;
+   margin-right: 3%;
+}
+.hr3-1-cont .hr3-1 {
+   margin-top: 60px;
+   margin-bottom: 55px;
+   border: 1px solid white;
+   border-style: dashed;
+}
+
+
+.right-aligned {
+   display: flex;
+   flex-direction: column;
+   gap: 28px;
+   position: relative;
+   justify-content: right;
+   align-items: right;
+   margin-right: 3%;
+   margin-left: 3%;
+   color: white;
+}
+
+.right-aligned .title2 {
+   font-family: "poiret one", cursive;
+   font-size: 22px;
+   text-align: left;
+   color: white;
+}
+
+.right-aligned .image-message2 {
+   display: flex;
+   flex-direction: column;
+   gap: 20px;
+   position: relative;
+   justify-content: right;
+   align-items: right;
+   color: white;
+}
+
+.right-aligned .image-message2 img {
+   width: 100%;
+}
+
+.right-aligned .image-message2 .message2 {
+   width: 100%;
+   font-size: 15px;
+   line-height: 25px;
+}
+
+
+.hr4-1-cont {
+   margin-left: 3%;
+   margin-right: 3%;
+}
+.hr4-1-cont .hr4-1 {
+   margin-top: 35px;
+   margin-bottom: 40px;
+   border: 1px solid white;
+   border-style: dashed;
+}
+
+
+.definition-sec {
+   display: flex;
+   flex-direction: column;
+   gap: 35px;
+   position: relative;
+   justify-content: left;
+   align-items: left;
+   margin-right: 3%;
+   margin-left: 3%;
+   color: white;
+}
+
+.definition-sec .title {
+   font-family: "poiret one", cursive;
+   font-size: 22px;
+   text-align: left;
+   color: white;
+}
+
+.definition-sec .definition123 {
+   display: flex;
+   flex-direction: column;
+   gap: 35px;
+   position: relative;
+   justify-content: left;
+   align-items: left;
+   color: white;
+}
+
+.definition-sec .definition123 .definition {
+   font-family: "poiret one", cursive;
+   font-size: 21px;
+   text-align: left;
+   color: gray;
+   margin-bottom: 20px;
+}
+
+.definition-sec .definition123 .message {
+   font-size: 15px;
+   text-align: left;
+   color: white;
+   line-height: 23px;
+}
+
+
+.hr5-1-cont {
+   margin-left: 3%;
+   margin-right: 3%;
+}
+.hr5-1-cont .hr5-1 {
+   margin-top: 48px;
+   margin-bottom: 48px;
+   border: 1px solid white;
+   border-style: dashed;
+}
+
+
+.block-recently {
+   display: flex;
+   flex-direction: column;
+   gap: 25px;
+   position: relative;
+   justify-content: left;
+   align-items: left;
+   margin-right: 3%;
+   margin-left: 3%;
+   color: white;
+}
+
+.block-recently .block-quotes {
+   font-family: "poiret one", cursive;
+   font-size: 22px;
+   text-align: left;
+   color: white;
+}
+
+.block-recently .recently-text-bcg {
+   justify-content: left;
+   align-items: left;
+   color: black;
+   background-color: white;
+   font-size: 15px;
+   padding: 25px 25px;
+   line-height: 23px;
+}
+
+
+.hr6-1-cont {
+   margin-left: 3%;
+   margin-right: 3%;
+}
+.hr6-1-cont .hr6-1 {
+   margin-top: 48px;
+   margin-bottom: 48px;
+   border: 1px solid white;
+   border-style: dashed;
+}
+
+
+
+.table-hash-countries-visits-percentages {
+   display: flex;
+   flex-direction: column;
+   gap: 25px;
+   position: relative;
+   justify-content: left;
+   align-items: left;
+   margin-right: 3%;
+   margin-left: 3%;
+   color: white;
+}
+
+.table-hash-countries-visits-percentages .table {
+   font-family: "poiret one", cursive;
+   font-size: 22px;
+   text-align: left;
+   color: white;
+}
+
+.table-hash-countries-visits-percentages .hash-countries-visits-percentages table {
+   background-color: white;
+   color: black;
+   /* width: 100%; */
+   padding: 25px;
+   display: flex;
+   overflow-x: auto;
+}
+
+.table-hash-countries-visits-percentages .hash-countries-visits-percentages table tr {
+   line-height: 60px;
+}
+
+.table-hash-countries-visits-percentages .hash-countries-visits-percentages table tr th {
+   color: #415094;
+}
+
+.table-hash-countries-visits-percentages .hash-countries-visits-percentages table tr td .percent-bar1 {
+   background-color: #6382e6;
+   width: 180px;
+   height: 5px;
+}
+
+.table-hash-countries-visits-percentages .hash-countries-visits-percentages table tr td .percent-bar2 {
+   background-color: #e66686;
+   width: 70px;
+   height: 5px;
+}
+
+.table-hash-countries-visits-percentages .hash-countries-visits-percentages table tr td .percent-bar3 {
+   background-color: #f09359;
+   width: 116px;
+   height: 5px;
+}
+
+.table-hash-countries-visits-percentages .hash-countries-visits-percentages table tr td .percent-bar4 {
+   background-color: #73fbaf;
+   width: 133px;
+   height: 5px;
+}
+
+.table-hash-countries-visits-percentages .hash-countries-visits-percentages table tr td .percent-bar5 {
+   background-color: #73fbaf;
+   width: 91px;
+   height: 5px;
+}
+
+.table-hash-countries-visits-percentages .hash-countries-visits-percentages table tr td .percent-bar6 {
+   background-color: #6382e6;
+   width: 160px;
+   height: 5px;
+}
+
+.table-hash-countries-visits-percentages .hash-countries-visits-percentages table tr td .percent-bar7 {
+   background-color: #a367e7;
+   width: 80px;
+   height: 5px;
+}
+
+.table-hash-countries-visits-percentages .hash-countries-visits-percentages table tr td .percent-bar8 {
+   background-color: #e66686;
+   width: 133px;
+   height: 5px;
+}
+
+.table-hash-countries-visits-percentages .hash-countries-visits-percentages table tr .colshift-less {
+   padding-right: 60px;
+   text-align: left;
+}
+
+.table-hash-countries-visits-percentages .hash-countries-visits-percentages table tr .colshift {
+   padding-right: 180px;
+   text-align: left;
+}
+
+
+
+.hr7-1-cont {
+   margin-left: 3%;
+   margin-right: 3%;
+}
+
+.hr7-1-cont .hr7-1 {
+   margin-top: 40px;
+   margin-bottom: 15px;
+   border: 1px solid white;
+   border-style: dashed;
+}
+
+
+
+.image-gallery-containers {
+   display: flex;
+   flex-direction: column;
+   gap: 30px;
+   position: relative;
+   justify-content: left;
+   align-items: left;
+   margin-right: 3%;
+   margin-left: 3%;
+   color: white;
+}
+
+.image-gallery-containers .gallery-text {
+   font-family: "poiret one", cursive;
+   font-size: 22px;
+   text-align: left;
+   color: white;
+   margin-top: 35px;
+}
+
+.image-gallery-containers .three-containers-image {
+   display: flex;
+   flex-direction: column;
+   gap: 20px;
+   position: relative;
+   justify-content: left;
+   align-items: left;
+   color: white;
+   width: 100%;
+}
+
+.image-gallery-containers .three-containers-image .container1 {
+   display: flex;
+   flex-direction: column;
+   gap: 20px;
+   position: relative;
+   justify-content: left;
+   align-items: left;
+} 
+
+.image-gallery-containers .three-containers-image .container1 img {
+   width: 100%;
+}
+
+.image-gallery-containers .three-containers-image .container2 {
+   display: flex;
+   flex-direction: column;
+   gap: 20px;
+   position: relative;
+   justify-content: left;
+   align-items: left;
+} 
+
+.image-gallery-containers .three-containers-image .container2 img {
+   width: 100%;
+}
+.image-gallery-containers .three-containers-image .container3 {
+   display: flex;
+   flex-direction: column;
+   gap: 20px;
+   position: relative;
+   justify-content: left;
+   align-items: left;
+} 
+
+.image-gallery-containers .three-containers-image .container3 img {
+   width: 100%;
+}
+
+
+
+.hr8-1-cont {
+   margin-left: 3%;
+   margin-right: 3%;
+}
+
+.hr8-1-cont .hr8-1 {
+   margin-top: 40px;
+   margin-bottom: 15px;
+   border: 1px solid white;
+   border-style: dashed;
+}
+
+
+.image-gallery-headers {
+   display: flex;
+   flex-direction: column;
+   gap: 10px;
+   position: relative;
+   justify-content: left;
+   align-items: left;
+   margin-right: 3%;
+   margin-left: 3%;
+   color: white;
+}
+
+.image-gallery-headers .gallery-text2 {
+   font-family: "poiret one", cursive;
+   font-size: 22px;
+   text-align: left;
+   color: white;
+   margin-top: 35px;
+}
+
+.image-gallery-headers .headers p {
+   font-family: "poiret one", cursive;
+   text-align: left;
+   color: white;
+   line-height: 35px;
+}
+
+.image-gallery-headers .headers .header1 {
+   font-size: 26px;
+   color: #828bb2;
+}
+
+.image-gallery-headers .headers .header2 {
+   font-size: 23px;
+   color: #828bb2;
+}
+
+.image-gallery-headers .headers .header3 {
+   font-size: 21px;
+   color: white;
+}
+
+.image-gallery-headers .headers .header4 {
+   font-size: 19.5px;
+   color: #828bb2;
+}
+
+.image-gallery-headers .headers .header5 {
+   font-size: 17.5px;
+   color: #828bb2;
+}
+
+.image-gallery-headers .headers .header6 {
+   font-size: 14.5px;
+   color: #828bb2;
+}
+
+
+
+.unorderedlist-buttons {
+   display: flex;
+   flex-direction: column;
+   gap: 10px;
+   position: relative;
+   justify-content: center;
+   align-items: left;
+   margin-right: 3%;
+   margin-left: 3%;
+   color: white;
+}
+
+.unorderedlist-buttons .unorderedlist-text {
+   font-family: "poiret one", cursive;
+   font-size: 22px;
+   text-align: left;
+   color: white;
+   margin-top: 35px;
+}
+
+.unorderedlist-buttons .unorderedlist {
+   display: flex;
+   flex-direction: column;
+   margin-right: 5px;
+   margin-left: 5px;
+   /* width: 100%; */
+}
+
+.unorderedlist-buttons .unorderedlist ul p .bullet {
+   padding: 0px 3px;
+   font-size: 5px;
+   top: -6px;
+   margin-right: 15px;
+   background-color: white;
+   border: 3px solid blue;
+   border-radius: 50%;   
+}
+
+.unorderedlist-buttons .unorderedlist ul {
+   list-style-type: disc;
+   line-height: 30px;
+}
+
+.unorderedlist-buttons .unorderedlist .ul2 {
+   margin-left: 25px;
+}
+
+.unorderedlist-buttons .unorderedlist .ul3 {
+   margin-left: 30px;
+}
+
+
+
+.orderedlist-numbers {
+   display: flex;
+   flex-direction: column;
+   gap: 10px;
+   position: relative;
+   justify-content: center;
+   align-items: left;
+   margin-right: 3%;
+   margin-left: 3%;
+   color: white;
+}
+
+.orderedlist-numbers .orderedlist-text {
+   font-family: "poiret one", cursive;
+   font-size: 22px;
+   text-align: left;
+   color: white;
+   margin-top: 35px;
+}
+
+.orderedlist-numbers .orderedlist {
+   display: flex;
+   flex-direction: column;
+   margin-right: 20px;
+   margin-left: 34px;
+   /* width: 100%; */
+}
+
+.orderedlist-numbers .orderedlist ol {
+   line-height: 30px;
+}
+
+.orderedlist-numbers .orderedlist ol li::marker {
+   color: yellow;
+   line-height: 35px;
+}
+
+.orderedlist-numbers .orderedlist .sub-ordered-list1 {
+   margin-left: 20px;
+}
+
+.orderedlist-numbers .orderedlist .sub-ordered-list1 li::marker {
+   list-style-type: lower-alpha;
+   color: blue;
+}
+
+.orderedlist-numbers .orderedlist .sub-ordered-list2 {
+   margin-left: 20px;
+}
+
+.orderedlist-numbers .orderedlist .sub-ordered-list2 li::marker {
+   list-style-type: lower-roman;
+   color: white;
+}
+
+
+.hr9-1-cont {
+   margin-left: 3%;
+   margin-right: 3%;
+}
+
+.hr9-1-cont .hr9-1 {
+   margin-top: 45px;
+   margin-bottom: 35px;
+   border: 1px solid white;
+   border-style: dashed;
+}
+
+
+#form-element {
+   margin-right: 3%;
+   margin-left: 3%;
+}
+
+#form-element .form-element {
+   color: white;
+   font-size: 20px;
+   margin-bottom: 20px;
+   font-family: "poiret one", cursive;
+}
+
+
+.form {
+   /* margin-bottom: 30px; */
+}
+
+.form form input {
+   display: flex;
+   justify-content: center;
+   /* align-items: center; */
+   padding-left: 5%;
+   padding-right: 5%;
+   font-size: 12px;
+   background-color: white;
+   border: 1px solid gray;
+   border-radius: 6px;
+   color: black;
+}
+
+.form form select:hover {
+   cursor: pointer;
+}
+
+.form form select option {
+   line-height: 100px;
+}
+
+.form form select option:hover {
+   cursor: pointer;
+}
+
+.form form .name {
+   width: 88.5%;
+   height: 40px;
+   margin-bottom: 11px;
+}
+
+.form form .email {
+   width: 88.5%;
+   height: 40px;
+   margin-bottom: 11px;
+}
+
+.form form .address {
+   width: 88.5%;
+   height: 40px;
+   margin-bottom: 11px;
+}
+
+.form form .city {
+   width: 98.5%;
+   height: 40px;
+   margin-bottom: 11px;
+   color: black;
+   padding-left: 5%;
+   padding-right: 5%;
+   border: 1px solid gray;
+   border-radius: 6px;
+   display: flex;
+   justify-content: center;
+}
+
+.form form .country {
+   width: 98.5%;
+   height: 40px;
+   margin-bottom: 11px;
+   color: black;
+   padding-left: 5%;
+   padding-right: 5%;
+   border: 1px solid gray;
+   border-radius: 6px;
+   display: flex;
+   justify-content: center;
+}
+
+.form form .message {
+   background-color: white;
+   border: 1px solid gray;
+   border-radius: 6px;
+   color: black;
+   font-size: 12px;
+   width: 88.5%;
+   height: 95px;
+   padding-left: 5%;
+   padding-right: 5%;
+   padding-top: 10px;
+   margin-bottom: 8px;
+}
+
+.form form .color {
+   width: 88.5%;
+   height: 40px;
+   margin-bottom: 11px;
+   color: black;
+}
+
+
+
+#switches-button {
+   display: flex;
+   flex-direction: column;
+   gap: 10px;
+   position: relative;
+   justify-content: center;
+   align-items: left;
+   margin-right: 3%;
+   margin-left: 3%;
+   color: white;
+}
+
+#switches-button .switches-text {
+   font-family: "poiret one", cursive;
+   font-size: 22px;
+   text-align: left;
+   color: white;
+   margin-top: 35px;
+}
+
+#switches-button .list-switch {
+   display: flex;
+   flex-direction: column;
+   margin-right: 20px;
+   margin-left: 20px;
+   /* width: 100%; */
+}
+
+#switches-button .list-switch ol {
+   line-height: 60px;
+   list-style-type: decimal-leading-zero;
+   margin-left: 10px;
+}
+
+#switches-button .list-switch ol li input {
+   float: right;
+}
+
+.switch1 {
+   position: relative;
+   height: 1.5rem;
+   width: 3rem;
+   cursor: pointer;
+   appearance: none;
+   -webkit-appearance: none;
+   border-radius: 9999px;
+   background-color: rgba(100, 116, 139, 0.377);
+   transition: all .3s ease;
+ }
+ 
+ .switch1:checked {
+   background-color: #1f2b7b;
+ }
+ 
+ .switch1::before {
+   position: absolute;
+   content: "";
+   left: calc(1.5rem - 1.6rem);
+   top: calc(1.5rem - 1.6rem);
+   display: block;
+   height: 1.6rem;
+   width: 1.6rem;
+   cursor: pointer;
+   border: none;
+   border-radius: 9999px;
+   background-color: white;
+   box-shadow: 0 3px 10px white;
+   transition: all .3s ease;
+ }
+ 
+ .switch1:hover::before {
+   
+ }
+ 
+ .switch1:checked:hover::before {
+ 
+ }
+ 
+ .switch1:checked:before {
+   transform: translateX(100%);
+   border-color: rgba(236, 72, 153, 1);
+ }
+
+
+
+ .switch2 {
+   position: relative;
+   height: 1.5rem;
+   width: 3rem;
+   cursor: pointer;
+   appearance: none;
+   -webkit-appearance: none;
+   border-radius: 9999px;
+   background-color: rgba(100, 116, 139, 0.377);
+   transition: all .3s ease;
+ }
+ 
+ .switch2:checked {
+   background-color: #1f2b7b;
+ }
+ 
+ .switch2::before {
+   position: absolute;
+   content: "";
+   left: calc(1.5rem - 1.6rem);
+   top: calc(1.5rem - 1.6rem);
+   display: block;
+   height: 1.6rem;
+   width: 1.6rem;
+   cursor: pointer;
+   border: none;
+   border-radius: 9999px;
+   background-color: white;
+   box-shadow: 0 3px 10px white;
+   transition: all .3s ease;
+ }
+ 
+ .switch2:hover::before {
+   
+ }
+ 
+ .switch2:checked:hover::before {
+ 
+ }
+ 
+ .switch2:checked:before {
+   transform: translateX(100%);
+   border-color: rgba(236, 72, 153, 1);
+ }
+
+
+
+
+ .switch3 {
+   position: relative;
+   height: 1.5rem;
+   width: 3rem;
+   cursor: pointer;
+   appearance: none;
+   -webkit-appearance: none;
+   border-radius: 9999px;
+   background-color: rgba(100, 116, 139, 0.377);
+   transition: all .3s ease;
+ }
+ 
+ .switch3:checked {
+   background-color: #4cd3e3;
+ }
+ 
+ .switch3::before {
+   position: absolute;
+   content: "";
+   left: calc(1.5rem - 1.6rem);
+   top: calc(1.5rem - 1.6rem);
+   display: block;
+   height: 1.6rem;
+   width: 1.6rem;
+   cursor: pointer;
+   border: none;
+   border-radius: 9999px;
+   background-color: white;
+   box-shadow: 0 3px 10px white;
+   transition: all .3s ease;
+ }
+ 
+ .switch3:hover::before {
+   
+ }
+ 
+ .switch3:checked:hover::before {
+ 
+ }
+ 
+ .switch3:checked:before {
+   transform: translateX(100%);
+   border-color: rgba(236, 72, 153, 1);
+ }
+
+
+
+#selectboxes {
+   margin-right: 3%;
+   margin-left: 3%;
+   margin-top: 35px;
+}
+
+#selectboxes .select-text {
+   color: white;
+   font-size: 20px;
+   margin-bottom: 15px;
+   font-family: "poiret one", cursive;
+}
+
+
+#selectboxes .select-items select {
+   width: 98.5%;
+   height: 40px;
+   margin-bottom: 11px;
+   color: black;
+   padding-left: 5%;
+   padding-right: 5%;
+   border: 1px solid gray;
+   border-radius: 6px;
+   display: flex;
+   justify-content: center;
+}
+
+
+
+#checkbox-button {
+   display: flex;
+   flex-direction: column;
+   gap: 10px;
+   position: relative;
+   justify-content: center;
+   align-items: left;
+   margin-right: 3%;
+   margin-left: 3%;
+   color: white;
+}
+
+#checkbox-button .checkbox-text {
+   font-family: "poiret one", cursive;
+   font-size: 22px;
+   text-align: left;
+   color: white;
+   margin-top: 35px;
+}
+
+#checkbox-button .list-checkbox {
+   display: flex;
+   flex-direction: column;
+   margin-right: 20px;
+   margin-left: 20px;
+   /* width: 100%; */
+}
+
+#checkbox-button .list-checkbox ol {
+   line-height: 30px;
+   list-style-type: decimal-leading-zero;
+   margin-left: 10px;
+}
+
+#checkbox-button .list-checkbox ol li input{
+   float: right;
+}
+
+
+
+#radio-button {
+   display: flex;
+   flex-direction: column;
+   gap: 10px;
+   position: relative;
+   justify-content: center;
+   align-items: left;
+   margin-right: 3%;
+   margin-left: 3%;
+   color: white;
+}
+
+#radio-button .radio-text {
+   font-family: "poiret one", cursive;
+   font-size: 22px;
+   text-align: left;
+   color: white;
+   margin-top: 35px;
+}
+
+#radio-button .list-radio {
+   display: flex;
+   flex-direction: column;
+   margin-right: 20px;
+   margin-left: 20px;
+   /* width: 100%; */
+}
+
+#radio-button .list-radio ol {
+   line-height: 30px;
+   list-style-type: decimal-leading-zero;
+   margin-left: 10px;
+}
+
+#radio-button .list-radio ol li input{
+   float: right;
+}
+
+
+
+.cake-shop-logo2 {
+   margin-top: 80px;
+   margin-left: 3%;
+   margin-right: 3%;
+}
+
+.cake-shop-logo2 img {
+   width: 50%;
+}
+
+#nav-bar2 {
+   margin-left: 5%;
+   margin-right: 5%;
+}
+
+#nav-bar2 ul {
+   margin-top: 10px;
+   margin-bottom: 30px;
+   display: flex;
+   flex-direction: row;
+   gap: 5%;
+   justify-content: flex-start;
+   align-items: center;
+   text-align: left;
+   font-size: 11.5px;
+}
+
+#nav-bar2 ul li {
+   text-align: left;
+   text-decoration: none;
+   list-style-type: none;
+}
+
+#nav-bar2 ul li a {
+   text-decoration: none;
+   color: white;
+}
+
+#nav-bar2 ul li a:hover {
+   cursor: pointer;
+   color: #e5bf4a;
+}
+
+.hr5-1 {
+   margin-left: 3%;
+   margin-right: 3%;
+   margin-bottom: 30px;
+}
+
+.consectetur-adipiscing {
+color: #ffffff;
+   font-size: 16px;
+   font-family: "jost", sans-serif;
+   margin-bottom: 40px;
+   line-height: 25px;
+   margin-left: 3%;
+   margin-right: 3%;
+}
+
+
+.instagram-facebook-twitter {
+   display: flex;
+   flex-direction: row;
+   /* flex-wrap: wrap; */
+   justify-content: center;
+   align-items: center;
+   gap: 2%;
+   margin-left: 2%;
+   margin-right: 2%;
+   margin-bottom: 70px;
+}
+
+.instagram-facebook-twitter a {
+   border: 1px solid white;
+   text-decoration: none;
+   padding: 10px 15px;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   color: white;
+}
+
+.instagram-facebook-twitter .fa-instagram  {
+   padding-right: 10px;
+}
+
+.instagram-facebook-twitter .fa-facebook-f  {
+   padding-right: 10px;
+}
+
+.instagram-facebook-twitter .fa-twitter  {
+   padding-right: 10px;
+}
+
+
+.location-contact {
+   margin-left: 3%;
+   margin-right: 3%;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: flex-start;
+   gap: 45px;
+   color: white;
+}
+
+.location-contact .location-cont {
+   line-height: 35px;
+}
+
+.location-contact .location-cont .location-logo .fa-location-arrow {
+   font-size: 22px;
+}
+
+.location-contact .location-cont .location-text {
+   color: #e5bf4a;
+   font-size: 22px;
+   font-family: "poiret one", cursive;
+}
+
+.location-contact .location-cont .address a {
+   font-family: "jost", sans-serif;
+   color: white;
+   text-decoration: none;
+}
+
+
+.location-contact .contact-cont {
+   line-height: 35px;
+}
+
+.location-contact .contact-cont .contact-logo .fa-phone {
+   font-size: 22px;
+}
+
+.location-contact .contact-cont .contact-text {
+   color: #e5bf4a;
+   font-size: 22px;
+   font-family: "poiret one", cursive;
+}
+
+.location-contact .contact-cont .phone-number a {
+   font-family: "jost", sans-serif;
+   color: white;
+   text-decoration: none;
+}
+
+.location-contact .contact-cont .email a {
+   font-family: "jost", sans-serif;
+   color: white;
+}
+
+
+.hr6-1 {
+   margin-top: 50px;
+   margin-bottom: 50px;
+   margin-left: 3%;
+   margin-right: 3%;
+}
+
+#to-top {
+   /* position: fixed; */
+   z-index: 999;
+   margin-left: 4%;
+   margin-right: 4%;
+}
+
+.back-to-top a .fa-angles-up {
+   border: 1px solid #e5bf4a;
+   background-color: #e5bf4a;
+   padding: 8px 8px;
+   border-radius: 50%;
+   justify-content: center;
+   align-items: center;
+   text-align: right;
+   float: right;
+   display: flexbox;
+}
+
+
+.copyright-alex {
+   margin-left: 3%;
+   margin-right: 3%;
+   margin-bottom: 35px;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   font-size: 12px;
+   line-height: 30px;
+   color: white;
+}
+
+.copyright-alex .fa-heart {
+   color: #e5bf4a;
+}
+
+.copyright-alex .alexo-s {
+   color: #e5bf4a;
+}
+
+
+
+@media only screen and (min-width: 768px) {
+     
+   .left-aligned .image-message1 {
+      display: flex;
+      flex-direction: row;
+      gap: 20px;
+      position: relative;
+      justify-content: left;
+      align-items: left;
+      color: white;
+   }
+   
+      
+   .right-aligned .image-message2 {
+      display: flex;
+      flex-direction: row;
+      gap: 20px;
+      position: relative;
+      justify-content: right;
+      align-items: right;
+      color: white;
+   }
+   
+   
+   .definition-sec .definition123 {
+      display: flex;
+      flex-direction: row;
+      gap: 35px;
+      position: relative;
+      justify-content: left;
+      align-items: left;
+      color: white;
+   }
+   
+      
+   .image-gallery-containers .three-containers-image .container1 {
+      display: flex;
+      flex-direction: row;
+      gap: 20px;
+      position: relative;
+      justify-content: left;
+      align-items: left;
+   } 
+   
+   .image-gallery-containers .three-containers-image .container1 img {
+      width: 100%;
+   }
+   
+   .image-gallery-containers .three-containers-image .container2 {
+      display: flex;
+      flex-direction: row;
+      gap: 20px;
+      position: relative;
+      justify-content: left;
+      align-items: left;
+   } 
+   
+   .image-gallery-containers .three-containers-image .container2 img {
+      width: 100%;
+   }
+
+   .image-gallery-containers .three-containers-image .container3 {
+      display: flex;
+      flex-direction: row;
+      gap: 20px;
+      position: relative;
+      justify-content: left;
+      align-items: left;
+   } 
+   
+   .image-gallery-containers .three-containers-image .container3 img {
+      width: 100%;
+   }
+   
+   
+   .imagegallery-unorderedlist-orderedlist {
+      display: flex;
+      flex-direction: row;
+   }
+  
+   
+   .image-gallery-headers {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      position: relative;
+      justify-content: left;
+      align-items: left;
+      margin-right: 3%;
+      margin-left: 3%;
+      color: white;
+   }
+   
+   .image-gallery-headers .gallery-text2 {
+      font-family: "poiret one", cursive;
+      font-size: 22px;
+      text-align: left;
+      color: white;
+      margin-top: 35px;
+   }
+   
+   .image-gallery-headers .headers p {
+      font-family: "poiret one", cursive;
+      text-align: left;
+      color: white;
+      line-height: 35px;
+   }
+   
+   .image-gallery-headers .headers .header1 {
+      font-size: 26px;
+      color: #828bb2;
+   }
+   
+   .image-gallery-headers .headers .header2 {
+      font-size: 23px;
+      color: #828bb2;
+   }
+   
+   .image-gallery-headers .headers .header3 {
+      font-size: 21px;
+      color: white;
+   }
+   
+   .image-gallery-headers .headers .header4 {
+      font-size: 19.5px;
+      color: #828bb2;
+   }
+   
+   .image-gallery-headers .headers .header5 {
+      font-size: 17.5px;
+      color: #828bb2;
+   }
+   
+   .image-gallery-headers .headers .header6 {
+      font-size: 14.5px;
+      color: #828bb2;
+   }
+   
+   
+   
+   .unorderedlist-buttons {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      position: relative;
+      justify-content: center;
+      align-items: left;
+      margin-right: 3%;
+      margin-left: 3%;
+      color: white;
+   }
+   
+   .unorderedlist-buttons .unorderedlist-text {
+      font-family: "poiret one", cursive;
+      font-size: 22px;
+      text-align: left;
+      color: white;
+      margin-top: 35px;
+   }
+   
+   .unorderedlist-buttons .unorderedlist {
+      display: flex;
+      flex-direction: column;
+      margin-right: 5px;
+      margin-left: 5px;
+      /* width: 100%; */
+   }
+   
+   .unorderedlist-buttons .unorderedlist ul p .bullet {
+      padding: 0px 3px;
+      font-size: 5px;
+      top: -6px;
+      margin-right: 15px;
+      background-color: white;
+      border: 3px solid blue;
+      border-radius: 50%;   
+   }
+   
+   .unorderedlist-buttons .unorderedlist ul {
+      list-style-type: disc;
+      line-height: 30px;
+   }
+   
+   .unorderedlist-buttons .unorderedlist .ul2 {
+      margin-left: 25px;
+   }
+   
+   .unorderedlist-buttons .unorderedlist .ul3 {
+      margin-left: 30px;
+   }
+   
+   
+   
+   .orderedlist-numbers {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      position: relative;
+      justify-content: center;
+      align-items: left;
+      margin-right: 3%;
+      margin-left: 3%;
+      color: white;
+   }
+   
+   .orderedlist-numbers .orderedlist-text {
+      font-family: "poiret one", cursive;
+      font-size: 22px;
+      text-align: left;
+      color: white;
+      margin-top: 35px;
+   }
+   
+   .orderedlist-numbers .orderedlist {
+      display: flex;
+      flex-direction: column;
+      margin-right: 20px;
+      margin-left: 34px;
+      /* width: 100%; */
+   }
+   
+   .orderedlist-numbers .orderedlist ol {
+      line-height: 30px;
+   }
+   
+   .orderedlist-numbers .orderedlist ol li::marker {
+      color: yellow;
+      line-height: 35px;
+   }
+   
+   .orderedlist-numbers .orderedlist .sub-ordered-list1 {
+      margin-left: 20px;
+   }
+   
+   .orderedlist-numbers .orderedlist .sub-ordered-list1 li::marker {
+      list-style-type: lower-alpha;
+      color: blue;
+   }
+   
+   .orderedlist-numbers .orderedlist .sub-ordered-list2 {
+      margin-left: 20px;
+   }
+   
+   .orderedlist-numbers .orderedlist .sub-ordered-list2 li::marker {
+      list-style-type: lower-roman;
+      color: white;
+   }
+   
+   
+   
+   
+   
+   .cake-shop-logo2 {
+      margin-top: 80px;
+      margin-left: 3%;
+      margin-right: 3%;
+   }
+   
+   .cake-shop-logo2 img {
+      width: 50%;
+   }
+   
+   #nav-bar2 {
+      margin-left: 5%;
+      margin-right: 5%;
+   }
+   
+   #nav-bar2 ul {
+      margin-top: 10px;
+      margin-bottom: 30px;
+      display: flex;
+      flex-direction: row;
+      gap: 5%;
+      justify-content: flex-start;
+      align-items: center;
+      text-align: left;
+      font-size: 11.5px;
+   }
+   
+   #nav-bar2 ul li {
+      text-align: left;
+      text-decoration: none;
+      list-style-type: none;
+   }
+   
+   #nav-bar2 ul li a {
+      text-decoration: none;
+      color: white;
+   }
+   
+   #nav-bar2 ul li a:hover {
+      cursor: pointer;
+      color: #e5bf4a;
+   }
+   
+   .hr5-1 {
+      margin-left: 3%;
+      margin-right: 3%;
+      margin-bottom: 30px;
+   }
+   
+   .consectetur-adipiscing {
+   color: #ffffff;
+      font-size: 16px;
+      font-family: "jost", sans-serif;
+      margin-bottom: 40px;
+      line-height: 25px;
+      margin-left: 3%;
+      margin-right: 3%;
+   }
+   
+   
+   .instagram-facebook-twitter {
+      display: flex;
+      flex-direction: row;
+      /* flex-wrap: wrap; */
+      justify-content: center;
+      align-items: center;
+      gap: 2%;
+      margin-left: 2%;
+      margin-right: 2%;
+      margin-bottom: 70px;
+   }
+   
+   .instagram-facebook-twitter a {
+      border: 1px solid white;
+      text-decoration: none;
+      padding: 10px 15px;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      color: white;
+   }
+   
+   .instagram-facebook-twitter .fa-instagram  {
+      padding-right: 10px;
+   }
+   
+   .instagram-facebook-twitter .fa-facebook-f  {
+      padding-right: 10px;
+   }
+   
+   .instagram-facebook-twitter .fa-twitter  {
+      padding-right: 10px;
+   }
+   
+   
+   .location-contact {
+      margin-left: 3%;
+      margin-right: 3%;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: flex-start;
+      gap: 80px;
+      color: white;
+   }
+     
+   }
